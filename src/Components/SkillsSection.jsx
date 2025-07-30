@@ -21,6 +21,12 @@ import {
   SiChartdotjs, // representing Matplotlib
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
+import Axios from "../assets/icons/Azios.png";
+import DRF from "../assets/icons/Django-REST.png"
+import ML from "../assets/icons/Machine-Learning.png"
+import DL from "../assets/icons/deep-learning.png"
+import SKLearn from "../assets/icons/scikit-learn.png"
+import TF from "../assets/icons/TensorFlow.png"
 
 const skills = [
   { label: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
@@ -28,8 +34,16 @@ const skills = [
   { label: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
   { label: "Python", icon: <FaPython className="text-yellow-400" /> },
   { label: "React.js", icon: <FaReact className="text-cyan-400" /> },
-  { label: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
+  /* { label: "Node.js", icon: <FaNodeJs className="text-green-600" /> }, */
+  {
+    label: "Axios",
+    icon: <img src={Axios} alt="Axios" className="w-8 h-8 object-contain" />,
+  },
   { label: "Django", icon: <SiDjango className="text-green-900" /> },
+  {
+    label: "DRF",
+    icon: <img src={DRF} alt="DRF" className="w-8 h-8 object-contain" />,
+  },
   { label: "REST APIs", icon: <SiApollographql className="text-purple-500" /> },
   { label: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
   { label: "PostgreSQL", icon: <SiPostgresql className="text-blue-700" /> },
@@ -37,6 +51,22 @@ const skills = [
   { label: "NumPy", icon: <SiNumpy className="text-blue-600" /> },
   { label: "Pandas", icon: <SiPandas className="text-black" /> },
   { label: "Matplotlib", icon: <SiChartdotjs className="text-red-500" /> },
+  {
+    label: "Machine Learning",
+    icon: <img src={ML} alt="ML" className="w-8 h-8 object-contain" />,
+  },
+  {
+    label: "Deep Learning",
+    icon: <img src={DL} alt="DL" className="w-8 h-8 object-contain" />,
+  },
+  {
+    label: "scikit-learn",
+    icon: <img src={SKLearn} alt="SKLearn" className="w-8 h-8 object-contain" />,
+  },
+  {
+    label: "TensorFLow",
+    icon: <img src={TF} alt="TensorFlow" className="w-8 h-8 object-contain" />,
+  },
   { label: "Jupyter", icon: <SiJupyter className="text-orange-500" /> },
   { label: "Git", icon: <FaGit className="text-orange-600" /> },
   { label: "GitHub", icon: <FaGithub className="text-gray-800" /> },

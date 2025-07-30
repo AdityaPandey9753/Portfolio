@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const sections = ["about", "skills", "projects", "contact"];
+const sections = ["about", "skills", "projects",/*  "contact" */];
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("about");
