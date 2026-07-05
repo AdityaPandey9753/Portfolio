@@ -39,21 +39,21 @@ export default function Achievements() {
             <div className="relative">
               <div className="flex items-center justify-between mb-6">
                 <span className="font-mono text-[10px] tracking-widest uppercase bg-violet text-white px-3 py-1.5 rounded-full inline-block">
-                  Research Paper
+                  Conference Paper 
                 </span>
                 <span className="font-mono text-[10px] tracking-widest uppercase bg-lime text-ink px-3 py-1.5 rounded-full inline-block">
-                  Published
+                  Paper Accepted
                 </span>
               </div>
               <h3 className="font-display text-4xl text-white leading-tight mb-3">
-                BRAIN TUMOR<br />DETECTION
+                ANTI CHEAT ENGINE FOR<br />COMPUTER BASED EXAM
               </h3>
-              <p className="font-body text-xs text-white/40 mb-4">Add Conference / Journal name · 2025</p>
+              <p className="font-body text-xs text-white/40 mb-4">MINDS · 2025</p>
               <p className="font-body text-sm text-white/60 leading-relaxed mb-6">
                 Multi-modal early-fusion approach combining InceptionV3, Xception, and VGG16 via ensemble transfer learning for 97%+ accuracy MRI tumor classification.
               </p>
               <div className="flex flex-wrap gap-2">
-                {['Deep Learning', 'Transfer Learning', 'Medical AI'].map(t => (
+                {['Deep Learning', 'Transfer Learning', 'Image Recognition', 'Speech Detection'].map(t => (
                   <span key={t} className="font-mono text-[10px] border border-white/20 text-white/60 px-3 py-1.5 rounded-full">{t}</span>
                 ))}
               </div>
